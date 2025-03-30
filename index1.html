@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Eva Liao's learning place</title>
+    </head>
+    <body>
+        <!-- <div id = "app"></div>
+
+        <script type = "text/javascript">
+            // Select the div element with 'app' id
+
+            const app = document.getElementById('app');
+            const header = document.createElement('h1');
+            const headerContent =document.createTextNode(
+                'I am studying.',
+            );
+
+            // Append the text to the H1 element
+            header.appendChild(headerContent);
+            app.appendChild(header);
+        </script>
+
+        <div id = "app1"></div>
+            <h2 id="title">歡迎來到我的網站</h2>
+            <h3 id="explanation"></h3>
+            <p id="content">這是原本的內容。</p>
+            <button onclick="changeText()">點我改變內容</button>
+
+        <script>
+        
+            function changeText(){
+                document.getElementById('title').innerText = "Welcome to my website";
+                document.getElementById('content').innerText = "The contents have changed.";
+                document.getElementById('explanation').innerText = "This is another test version.";
+            }
+        
+        </script> -->
+
+        <div id = "app2"></div>
+        <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+         <!-- Babel Script -->
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script type="text/jsx">
+            const app2 = document.getElementById("app2");
+            ReactDom.render(<h1>New try</h1>, app2);
+        </script>
+    </body>
+</html>
